@@ -350,11 +350,8 @@ function App() {
             <div className="flex justify-center">
               <div className="relative">
                 <div className="w-80 h-80 rounded-2xl overflow-hidden border-4 border-gradient-to-br from-blue-400 to-cyan-400 shadow-2xl">
-                  <img 
-                    src="/public/IMG_0247-Photoroom (1).png" 
-                    alt="Zeynep Bölükbaşı" 
-                    className="w-full h-full object-cover"
-                  />
+                <img src="/zeynep/IMG_0247-Photoroom (1).png" alt="Zeynep Bölükbaşı" className="w-full h-full object-cover" />
+
                 </div>
                 <div className="absolute -inset-4 bg-gradient-to-br from-blue-600/20 to-cyan-600/20 rounded-2xl -z-10"></div>
               </div>
