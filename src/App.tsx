@@ -4,6 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 // App.tsx veya ilgili bileşende
 import profileImage from './IMG_0247-Photoroom (1).png';
+
 import { 
   Github, 
   Linkedin, 
@@ -352,10 +353,11 @@ function App() {
             <div className="flex justify-center">
               <div className="relative">
                 <div className="w-80 h-80 rounded-2xl overflow-hidden border-4 border-gradient-to-br from-blue-400 to-cyan-400 shadow-2xl">
+               
                 <img 
-  src="/zeynep-photo.png"
+  src={profileImg} 
   alt="Zeynep Bölükbaşı" 
-  className="w-full h-full object-cover"
+  className="w-full h-full object-cover" 
 />
 
                 </div>
